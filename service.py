@@ -49,3 +49,4 @@ def get_leave_request_service(leave_id):
     leave_request = Leave.query.get_or_404(leave_id)
     leave_dict = leave_request.to_dict()
     return leave_dict
+
